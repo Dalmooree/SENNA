@@ -5,7 +5,7 @@ Spatial Expression aNalysis with spliNe Axes
 ## Description
 
 
-## Install package
+## How to install package
 
 
 ## How to run
