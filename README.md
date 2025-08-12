@@ -3,16 +3,13 @@ Spatial Expression aNalysis with spliNe Axes
 (2025-08-12 Minseok Lee)
 
 <br/>
-<br/>
 
 ## Description  
 SENNA is a user-interactive framework that maps spots from spatially resolved transcriptomics and proteomics datasets onto a ‘curve axis’—a user-drawn path or region boundary on the tissue.  
 
 <br/>
-<br/>
 
 ## Installation  
-
 
 ```
 install.packages("devtools")
@@ -28,7 +25,6 @@ library(remotes)
 install_github("Dalmooree/SENNA")
 ```
 
-<br/>
 <br/>
 
 ## Run  
@@ -64,7 +60,6 @@ surt <- FindNeighbors(surt, verbose = FALSE)
 surt <- FindClusters(surt, verbose = FALSE)
 ```
 
-<br/>
 <br/>
 
 ### `SENNA` object creation and knots picking    
@@ -142,7 +137,6 @@ knot_picker()
 ![Cont kp with image](images/1_kp42.png)
 
 <br/>
-<br/>
 
 ### Curve axis generation and projection  
 ```
@@ -209,7 +203,6 @@ pl + pr
 ![Regionation](images/3_reg.png)
 
 <br/>
-<br/>
 
 ### SVG detection
 
@@ -258,8 +251,7 @@ RegionVolPlot(sen_isl,
 ![IslVol](images/4_isl.png)
 
 <br/>
-<br/>
- 
+
 ## License  
 This software is distributed under a non-commercial license. See [LICENSE](LICENSE) for details.  
 
