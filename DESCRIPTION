@@ -1,0 +1,51 @@
+Package: SENNA
+Type: Package
+Title: A user-interactive analysis tool for spatial expression dataset
+Version: 1.0.1
+Author: Minseok Lee  <msl05034@snu.ac.kr>
+Maintainer: Minseok Lee  <msl05034@snu.ac.kr>
+Description: SENNA is a user-interactive tool to map the coordinates onto the user-defined curve axes.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    pracma,
+    parallel,
+    stats,
+    splines,
+    methods,
+    ggplot2 (>= 3.5.1),
+    ggrepel,
+    BiocGenerics,
+    SeuratObject (>= 5.0.0),
+    tibble (>= 3.2.1),
+    magrittr,
+    dplyr (>= 1.1.4),
+    tidyselect,
+    scales,
+    pheatmap,
+    shiny,
+    rjson,
+    png,
+    grid
+Depends: 
+    R (>= 4.4),
+    Seurat (>= 5.0.0)
+Remotes: 
+    tidyverse/dplyr
+Suggests: 
+    readr,
+    sctransform,
+    arrow,
+    hdf5r,
+    bslib,
+    shinythemes,
+    markdown
+RoxygenNote: 7.3.2
+Collate: 
+    'create_senna.R'
+    'SVGs_tools.R'
+    'covariate.R'
+    'curve_axis.R'
+    'plotting.R'
+    'regionation.R'
