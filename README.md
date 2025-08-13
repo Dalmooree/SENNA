@@ -69,9 +69,9 @@ sen <- SENNA_Visium(surt,
                     slice_name = "mb",
                     annotation = TRUE)
 
-## Use `SENNA_Xenium()` for Xenium datasets  
-## Use `SENNA_CODEX()` for CODEX datasets  
-## Use `SENNA_CosMx()` for CosMx datasets  
+## Use `SENNA_Xenium()` for Xenium data  
+## Use `SENNA_CODEX()` for CODEX data  
+## Use `SENNA_CosMx()` for CosMx data  
 ```
 <br/>
 
