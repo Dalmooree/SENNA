@@ -81,7 +81,10 @@ AppDat(sen)
 knot_picker()
 ```
 
-![Default kp](images/1_kp1.png)
+<p align="center">
+  <img src="images/1_kp1.png" alt="Default kp" width="300"/>
+</p>
+
 
 <br/>
 
@@ -95,7 +98,10 @@ AppDat(sen,
 knot_picker()
 ```
 
-![Image kp](images/1_kp2.png)
+<p align="center">
+  <img src="images/1_kp2.png" alt="Image kp" width="300"/>
+</p>
+
 
 <br/>
 
@@ -112,8 +118,14 @@ knot_picker()
 ```
 
 ![Disc kp](images/1_kp31.png)
+<p align="center">
+  <img src="images/1_kp31.png" alt="Disc kp" width="300"/>
+</p>
 
-![Disc kp with image](images/1_kp32.png)
+<p align="center">
+  <img src="images/1_kp32.png" alt="Disc kp with image" width="300"/>
+</p>
+
 
 <br/>
 
@@ -132,9 +144,16 @@ AppDat(sen,
 knot_picker()
 ```
 
-![Cont kp](images/1_kp41.png)
+<p align="center">
+  <img src="images/1_kp41.png" alt="Cont kp" width="300"/>
+</p>
+
 
 ![Cont kp with image](images/1_kp42.png)
+<p align="center">
+  <img src="images/1_kp42.png" alt="Cont kp with image" width="300"/>
+</p>
+
 
 <br/>
 
@@ -150,7 +169,11 @@ prog_knots <- read.csv(
 sen_prog <- TrimmedCurve(sen, prog_knots, type = "spline")
 ShowCurve(sen_prog)
 ```
-![PTCA](images/2_ptca.png)
+
+<p align="center">
+  <img src="images/2_ptca.png" alt="PTCA" width="300"/>
+</p>
+
 
 ```
 # Compute curve parameters and distances
@@ -183,7 +206,10 @@ ShowCurve(sen_isl,
   guides(color = "none")
 ```
 
-![ITCA](images/3_itca.png)
+<p align="center">
+  <img src="images/3_itca.png" alt="ITCA" width="300"/>
+</p>
+
 
 ```
 sen_isl <- GetCurveParam(sen_isl)
@@ -200,7 +226,10 @@ pr <- ShowCSDistance(sen_isl) +
 pl + pr
 ```
 
-![Regionation](images/3_reg.png)
+<p align="center">
+  <img src="images/3_reg.png" alt="Regionation" width="700"/>
+</p>
+
 
 <br/>
 
@@ -213,7 +242,10 @@ pl + pr
 ScanInterval(sen_prog, interval = 0.1, dot_size = 0.7,dot_alpha = 0.5)
 ```
 
-![Interval](images/4_int.png)
+<p align="center">
+  <img src="images/4_int.png" alt="Interval" width="300"/>
+</p>
+
 
 ```
 sen_prog <- ProgSVGs(sen_prog,
@@ -230,6 +262,10 @@ ProgVolPlot(sen_prog,
 ```
 
 ![ProgVol](images/4_prog.png)
+<p align="center">
+  <img src="images/4_prog.png" alt="ProgVol" width="300"/>
+</p>
+
 
 
 <br/>
@@ -249,6 +285,10 @@ RegionVolPlot(sen_isl,
 ```
 
 ![IslVol](images/4_isl.png)
+<p align="center">
+  <img src="images/4_isl.png" alt="IslVol" width="300"/>
+</p>
+
 
 <br/>
 
@@ -256,4 +296,4 @@ RegionVolPlot(sen_isl,
 This software is distributed under a non-commercial license. See [LICENSE](LICENSE) for details.  
 
 ## Citation  
-
+DOI
