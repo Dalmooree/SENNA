@@ -148,7 +148,6 @@ knot_picker()
 </p>
 
 
-![Cont kp with image](images/1_kp42.png)
 <p align="center">
   <img src="images/1_kp42.png" alt="Cont kp with image" width="600"/>
 </p>
@@ -260,7 +259,6 @@ ProgVolPlot(sen_prog,
             nrepel = 10)
 ```
 
-![ProgVol](images/4_prog.png)
 <p align="center">
   <img src="images/4_prog.png" alt="ProgVol" width="600"/>
 </p>
@@ -283,7 +281,6 @@ RegionVolPlot(sen_isl,
               nrepel = 10)
 ```
 
-![IslVol](images/4_isl.png)
 <p align="center">
   <img src="images/4_isl.png" alt="IslVol" width="600"/>
 </p>
