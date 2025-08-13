@@ -75,7 +75,7 @@ sen <- SENNA_Visium(surt,
 ```
 <br/>
 
-1. Knots picker with default option  
+**1. Knots picker with default option**  
 ```
 AppDat(sen)
 knot_picker()
@@ -88,7 +88,7 @@ knot_picker()
 
 <br/>
 
-2. Knots picker with tissue image (Visium and VisiumHD only)
+**2. Knots picker with tissue image (Visium and VisiumHD only)**  
 ```
 # Tissue image path
 ipath <- "../dataset/st/CytAssist_FFPE_Mouse_Brain_Rep1_filtered/spatial/"
@@ -105,7 +105,7 @@ knot_picker()
 
 <br/>
 
-3. Knots picker with discrete spot attribute (e.g. Clusters, cell types, etc.)  
+**3. Knots picker with discrete spot attribute (e.g. Clusters, cell types, etc.)**  
 ```
 # List of available reference values
 names(sen@Gene$Reference)
@@ -128,7 +128,7 @@ knot_picker()
 
 <br/>
 
-4. Knots picker with continuous spot attribute (e.g. Expression level, CNV score, etc.)  
+**4. Knots picker with continuous spot attribute (e.g. Expression level, CNV score, etc.)**  
 ```
 # Add a reference variable
 sen <- AddReference(sen,
