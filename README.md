@@ -11,7 +11,7 @@ SENNA is a user-interactive framework that maps spots from spatially resolved tr
 
 ## Installation  
 
-```{r}
+```
 install.packages("devtools")
 library(devtools)
 install_github("Dalmooree/SENNA")
