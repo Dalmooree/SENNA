@@ -1,5 +1,4 @@
-# SENNA  
-<a href="https://doi.org/10.5281/zenodo.16865433"><img src="https://zenodo.org/badge/1030030108.svg" alt="DOI"></a>  
+# SENNA <a href="https://doi.org/10.5281/zenodo.16865433"><img src="https://zenodo.org/badge/1030030108.svg" alt="DOI"></a>  
 Spatial Expression aNalysis with spliNe Axes  
 (2025-08-12 Minseok Lee)
 
