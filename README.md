@@ -82,7 +82,7 @@ knot_picker()
 ```
 
 <p align="center">
-  <img src="images/1_kp1.png" alt="Default kp" width="600"/>
+  <img src="images/1_kp1.png" alt="Default kp" width="400"/>
 </p>
 
 
@@ -99,7 +99,7 @@ knot_picker()
 ```
 
 <p align="center">
-  <img src="images/1_kp2.png" alt="Image kp" width="600"/>
+  <img src="images/1_kp2.png" alt="Image kp" width="400"/>
 </p>
 
 
@@ -118,11 +118,11 @@ knot_picker()
 ```
 
 <p align="center">
-  <img src="images/1_kp31.png" alt="Disc kp" width="600"/>
+  <img src="images/1_kp31.png" alt="Disc kp" width="400"/>
 </p>
 
 <p align="center">
-  <img src="images/1_kp32.png" alt="Disc kp with image" width="600"/>
+  <img src="images/1_kp32.png" alt="Disc kp with image" width="400"/>
 </p>
 
 
@@ -144,12 +144,12 @@ knot_picker()
 ```
 
 <p align="center">
-  <img src="images/1_kp41.png" alt="Cont kp" width="600"/>
+  <img src="images/1_kp41.png" alt="Cont kp" width="400"/>
 </p>
 
 
 <p align="center">
-  <img src="images/1_kp42.png" alt="Cont kp with image" width="600"/>
+  <img src="images/1_kp42.png" alt="Cont kp with image" width="400"/>
 </p>
 
 
@@ -169,7 +169,7 @@ ShowCurve(sen_prog)
 ```
 
 <p align="center">
-  <img src="images/2_ptca.png" alt="PTCA" width="600"/>
+  <img src="images/2_ptca.png" alt="PTCA" width="500"/>
 </p>
 
 
@@ -205,7 +205,7 @@ ShowCurve(sen_isl,
 ```
 
 <p align="center">
-  <img src="images/3_itca.png" alt="ITCA" width="600"/>
+  <img src="images/3_itca.png" alt="ITCA" width="500"/>
 </p>
 
 
@@ -225,7 +225,7 @@ pl + pr
 ```
 
 <p align="center">
-  <img src="images/3_reg.png" alt="Regionation" width="1000"/>
+  <img src="images/3_reg.png" alt="Regionation" width="800"/>
 </p>
 
 
@@ -241,7 +241,7 @@ ScanInterval(sen_prog, interval = 0.1, dot_size = 0.7,dot_alpha = 0.5)
 ```
 
 <p align="center">
-  <img src="images/4_int.png" alt="Interval" width="600"/>
+  <img src="images/4_int.png" alt="Interval" width="500"/>
 </p>
 
 
@@ -260,7 +260,7 @@ ProgVolPlot(sen_prog,
 ```
 
 <p align="center">
-  <img src="images/4_prog.png" alt="ProgVol" width="600"/>
+  <img src="images/4_prog.png" alt="ProgVol" width="500"/>
 </p>
 
 
@@ -282,7 +282,7 @@ RegionVolPlot(sen_isl,
 ```
 
 <p align="center">
-  <img src="images/4_isl.png" alt="IslVol" width="600"/>
+  <img src="images/4_isl.png" alt="IslVol" width="500"/>
 </p>
 
 
